@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "factorydim:metal_forge",
+    "factorydim:copper_foundry",
+    "factorydim:smoke_chimney",
+    "factorydim:gear_valley"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "feature": "factorydim:tinted_glass_ceiling",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

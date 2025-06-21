@@ -1,0 +1,26 @@
+{
+  "display": {
+    "item": "minecraft:blackstone",
+    "title": {
+      "translate": "factorydim.preset.factory_overworld"
+    }
+  },
+  "settings": {
+    "biome": "factorydim:metal_forge",
+    "layers": [
+      {
+        "height": 1,
+        "block": "minecraft:bedrock"
+      },
+      {
+        "height": 2,
+        "block": "minecraft:andesite"
+      },
+      {
+        "height": 1,
+        "block": "minecraft:blackstone"
+      }
+    ],
+    "structure_overrides": []
+  }
+}

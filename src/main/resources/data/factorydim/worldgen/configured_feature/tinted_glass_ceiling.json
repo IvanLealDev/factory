@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state": {
+      "Name": "minecraft:tinted_glass"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 8
+      }
+    },
+    "half_height": 0,
+    "y_provider": {
+      "type": "minecraft:constant",
+      "value": {
+        "absolute": 128
+      }
+    }
+  }
+}

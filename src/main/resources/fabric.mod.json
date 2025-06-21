@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "factorydim",
+  "version": "${version}",
+  "name": "factory",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/factory/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.harry.factory.client.FactoryDataGenerator"
+    ],
+    "client": [
+      "com.harry.factory.client.FactoryClient"
+    ],
+    "main": [
+      "com.harry.factory.FactoryDim"
+    ]
+  },
+  "mixins": [
+    "factory.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

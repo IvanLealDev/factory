@@ -1,0 +1,34 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.1,
+  "effects": {
+    "sky_color": 2302755,
+    "fog_color": 1118481,
+    "water_color": 4144959,
+    "water_fog_color": 4013373,
+    "music": {
+      "sound": "minecraft:music.creative",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "factorydim:tinted_glass_ceiling"
+    ]
+  ],
+  "carvers": {}
+}
