@@ -1,55 +1,74 @@
 {
-  "type": "factorydim:factory_overworld",
+  "type": "factory_overworld:factory_overworld",
   "generator": {
-    "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 2,
+          "block": "minecraft:andesite"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:blackstone"
+        }
+      ],
+      "biome": "factory_overworld:metal_forge",
+      "lakes": false,
+      "features": true,
+      "structure_overrides": []
+    },
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "factorydim:metal_forge",
+          "biome": "factory_overworld:metal_forge",
           "parameters": {
             "temperature": 0,
-            "humidity": -0.5,
+            "humidity": 0,
             "continentalness": 0,
-            "erosion": 0.2,
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "factorydim:copper_foundry",
+          "biome": "factory_overworld:copper_foundry",
           "parameters": {
             "temperature": 0.5,
             "humidity": 0.5,
-            "continentalness": 0.2,
-            "erosion": -0.3,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "factorydim:smoke_chimney",
+          "biome": "factory_overworld:smoke_chimney",
           "parameters": {
             "temperature": -0.5,
-            "humidity": -0.2,
-            "continentalness": -0.5,
-            "erosion": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "factorydim:gear_valley",
+          "biome": "factory_overworld:gear_valley",
           "parameters": {
-            "temperature": 0.2,
+            "temperature": 0,
             "humidity": 0,
             "continentalness": 0.5,
-            "erosion": -0.5,
-            "weirdness": 0.2,
+            "erosion": 0,
+            "weirdness": 0,
             "depth": 0,
             "offset": 0
           }

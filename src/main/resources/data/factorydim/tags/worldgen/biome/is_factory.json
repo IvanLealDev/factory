@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "factorydim:metal_forge",
-    "factorydim:copper_foundry",
-    "factorydim:smoke_chimney",
-    "factorydim:gear_valley"
+    "factory_overworld:metal_forge",
+    "factory_overworld:copper_foundry",
+    "factory_overworld:smoke_chimney",
+    "factory_overworld:gear_valley"
   ]
 }

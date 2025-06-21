@@ -1,16 +1,18 @@
 {
-  "temperature": 0.5,
-  "downfall": 0.1,
+  "temperature": 0.8,
+  "downfall": 0.0,
+  "has_precipitation": false,
   "effects": {
-    "sky_color": 2302755,
-    "fog_color": 1118481,
-    "water_color": 4144959,
-    "water_fog_color": 4013373,
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
+    "sky_color": 7241635,
+    "fog_color": 3358259,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
     }
   },
   "spawners": {},
@@ -23,11 +25,13 @@
     [],
     [],
     [],
-    [],
-    [],
+    [
+      "factory_overworld:tinted_glass_ceiling_placed"
+    ],
     [],
     [
-      "factorydim:tinted_glass_ceiling"
+      "minecraft:patch_iron_ore",
+      "minecraft:patch_raw_iron_block"
     ]
   ],
   "carvers": {}

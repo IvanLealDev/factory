@@ -1,17 +1,13 @@
 {
-  "temperature": 0.5,
-  "downfall": 0.1,
+  "temperature": 0.7,
+  "downfall": 0.0,
+  "has_precipitation": false,
   "effects": {
-    "sky_color": 2302755,
-    "fog_color": 1118481,
-    "water_color": 4144959,
-    "water_fog_color": 4013373,
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
+    "sky_color": 7241635,
+    "fog_color": 5595024,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:block.piston.contract"
   },
   "spawners": {},
   "spawn_costs": {},
@@ -23,11 +19,14 @@
     [],
     [],
     [],
-    [],
-    [],
-    [],
     [
-      "factorydim:tinted_glass_ceiling"
+      "factory_overworld:tinted_glass_ceiling_placed"
+    ],
+    [
+      "factory_overworld:gear_structure_placed"
+    ],
+    [
+      "minecraft:ore_redstone"
     ]
   ],
   "carvers": {}

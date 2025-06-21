@@ -1,12 +1,9 @@
 {
   "display": {
-    "item": "minecraft:blackstone",
-    "title": {
-      "translate": "factorydim.preset.factory_overworld"
-    }
+    "item": "minecraft:piston",
+    "title": "Factory Overworld"
   },
   "settings": {
-    "biome": "factorydim:metal_forge",
     "layers": [
       {
         "height": 1,
@@ -21,6 +18,7 @@
         "block": "minecraft:blackstone"
       }
     ],
+    "biome": "factory_overworld:metal_forge",
     "structure_overrides": []
   }
 }

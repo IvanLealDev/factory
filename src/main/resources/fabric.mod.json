@@ -4,7 +4,9 @@
   "version": "${version}",
   "name": "factory",
   "description": "",
-  "authors": [],
+  "authors": [
+    "Harry"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/factory/icon.png",
