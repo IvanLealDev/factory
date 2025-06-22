@@ -5,7 +5,7 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 3,
+          "weight": 4,
           "data": {
             "Name": "minecraft:piston",
             "Properties": {
@@ -14,13 +14,19 @@
           }
         },
         {
-          "weight": 2,
+          "weight": 3,
           "data": {
             "Name": "minecraft:redstone_block"
           }
         },
         {
-          "weight": 1,
+          "weight": 6,
+          "data": {
+            "Name": "minecraft:smooth_stone"
+          }
+        },
+        {
+          "weight": 2,
           "data": {
             "Name": "minecraft:iron_block"
           }

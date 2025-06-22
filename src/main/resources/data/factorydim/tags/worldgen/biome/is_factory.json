@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "factory_overworld:metal_forge",
-    "factory_overworld:copper_foundry",
-    "factory_overworld:smoke_chimney",
-    "factory_overworld:gear_valley"
-  ]
-}

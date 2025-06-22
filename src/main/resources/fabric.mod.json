@@ -19,7 +19,7 @@
       "com.harry.factory.client.FactoryClient"
     ],
     "main": [
-      "com.harry.factory.FactoryDim"
+      "com.harry.factory.FactoryMod"
     ]
   },
   "mixins": [

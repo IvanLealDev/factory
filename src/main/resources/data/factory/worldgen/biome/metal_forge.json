@@ -1,9 +1,9 @@
 {
-  "temperature": 0.5,
-  "downfall": 0.0,
   "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.0,
   "effects": {
-    "sky_color": 4473924,
+    "sky_color": 3342387,
     "fog_color": 1118481,
     "water_color": 4159204,
     "water_fog_color": 329011,
@@ -11,12 +11,12 @@
       "options": {
         "type": "minecraft:ash"
       },
-      "probability": 0.15
-    },
-    "ambient_sound": "minecraft:block.fire.ambient"
+      "probability": 0.025
+    }
   },
   "spawners": {},
   "spawn_costs": {},
+  "carvers": {},
   "features": [
     [],
     [],
@@ -25,13 +25,11 @@
     [],
     [],
     [],
-    [
-      "factory_overworld:tinted_glass_ceiling_placed"
-    ],
+    [],
     [],
     [
-      "minecraft:ore_blackstone"
-    ]
-  ],
-  "carvers": {}
+      "factory:ceiling_glass"
+    ],
+    []
+  ]
 }

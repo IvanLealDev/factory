@@ -1,4 +1,4 @@
-package com.harry.factorydim.client;
+package com.harry.factory.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
