@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:fill_layer",
+  "config": {
+    "height": 1,
+    "state": {
+      "Name": "minecraft:andesite"
+    }
+  }
+}

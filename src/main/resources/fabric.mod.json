@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "factorydim",
+  "id": "factory",
   "version": "${version}",
-  "name": "factory",
+  "name": "Factory Dimension",
   "description": "",
   "authors": [
     "Harry"
   ],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/factory/icon.png",
+  "icon": "",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "com.harry.factory.client.FactoryDataGenerator"
+      "com.harry.factory.datagen.FactoryDataGenerator"
     ],
     "client": [
       "com.harry.factory.client.FactoryClient"
@@ -28,6 +28,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
+    "fabric-api": "*",
     "minecraft": "${minecraft_version}"
   }
 }

@@ -1,9 +1,0 @@
-{
-  "feature": "factory:ceiling_glass",
-  "placement": [
-    {
-      "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE"
-    }
-  ]
-}

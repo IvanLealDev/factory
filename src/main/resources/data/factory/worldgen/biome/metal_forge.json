@@ -18,6 +18,12 @@
   "spawn_costs": {},
   "carvers": {},
   "features": [
+    [
+      "factory:floor_bedrock_placed",
+      "factory:floor_andesite_1_placed",
+      "factory:floor_andesite_2_placed",
+      "factory:floor_blackstone_placed"
+    ],
     [],
     [],
     [],
@@ -28,8 +34,7 @@
     [],
     [],
     [
-      "factory:ceiling_glass"
-    ],
-    []
+      "factory:ceiling_glass_placed"
+    ]
   ]
 }
