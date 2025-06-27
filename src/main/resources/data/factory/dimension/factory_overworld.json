@@ -4,8 +4,57 @@
     "type": "minecraft:noise",
     "settings": "factory:factory_flat_noise",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "factory:metal_forge"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "factory:metal_forge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "factory:copper_foundry",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.5,
+            "continentalness": 0.2,
+            "erosion": 0.3,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "factory:smoke_chimney",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.8,
+            "continentalness": -0.5,
+            "erosion": -0.3,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "factory:gear_valley",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": 0.6,
+            "weirdness": 0.3,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
     }
   }
 }
