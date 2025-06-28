@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "factory:metal_forge"
+    "factory:metal_forge",
+    "factory:copper_foundry",
+    "factory:smoke_chimney",
+    "factory:gear_valley"
   ]
 }
