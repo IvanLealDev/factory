@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -30,12 +29,12 @@ public class FactoryMod implements ModInitializer {
                         ServerWorld serverWorld = source.getServer().getWorld(FACTORY_WORLD_KEY);
 
                         if (serverWorld == null) {
-                            source.sendError(Text.literal("La dimensión Factory no se ha podido encontrar o cargar."));
+                            // source.sendError(Text.literal("La dimensión Factory no se ha podido encontrar o cargar."));
                             return 0;
                         }
 
                         source.getPlayer().teleport(serverWorld, 0.5, 4.0, 0.5, 0, 0);
-                        source.sendFeedback(() -> Text.literal("Bienvenido a la Factory!"), true);
+                        // source.sendFeedback(() -> Text.literal("Bienvenido a la Factory!"), true);
                         return 1;
                     }));
         });
