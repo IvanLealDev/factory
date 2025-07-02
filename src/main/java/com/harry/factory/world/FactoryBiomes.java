@@ -40,6 +40,10 @@ public class FactoryBiomes {
         builder.feature(GenerationStep.Feature.RAW_GENERATION, placedFeatures.getOrThrow(ModPlacedFeatures.FLOOR_ANDESITE_2_PLACED_KEY));
         builder.feature(GenerationStep.Feature.RAW_GENERATION, placedFeatures.getOrThrow(ModPlacedFeatures.FLOOR_BLACKSTONE_PLACED_KEY));
         builder.feature(GenerationStep.Feature.TOP_LAYER_MODIFICATION, placedFeatures.getOrThrow(ModPlacedFeatures.CEILING_GLASS_PLACED_KEY));
+        builder.feature(GenerationStep.Feature.TOP_LAYER_MODIFICATION, placedFeatures.getOrThrow(ModPlacedFeatures.RAIL_PLACED_KEY));
+        builder.feature(GenerationStep.Feature.TOP_LAYER_MODIFICATION, placedFeatures.getOrThrow(ModPlacedFeatures.ANVIL_PLACED_KEY));
+        builder.feature(GenerationStep.Feature.TOP_LAYER_MODIFICATION, placedFeatures.getOrThrow(ModPlacedFeatures.LEAF_BUSH_PLACED_KEY));
+        builder.feature(GenerationStep.Feature.LAKES, placedFeatures.getOrThrow(ModPlacedFeatures.LAVA_PUDDLE_PLACED_KEY));
     }
 
     public static Biome createMetalForgeBiome(RegistryEntryLookup<PlacedFeature> placedFeatures) {
@@ -93,6 +97,7 @@ public class FactoryBiomes {
         GenerationSettings.Builder generationBuilder = new GenerationSettings.Builder();
         addFactoryBaseFeatures(generationBuilder, placedFeatures);
         generationBuilder.feature(GenerationStep.Feature.SURFACE_STRUCTURES, placedFeatures.getOrThrow(ModPlacedFeatures.GEAR_ORE_PLACED_KEY));
+        generationBuilder.feature(GenerationStep.Feature.UNDERGROUND_ORES, placedFeatures.getOrThrow(ModPlacedFeatures.SMOOTH_BASALT_PATCH_PLACED_KEY));
 
         return new Biome.Builder()
                 .precipitation(false).temperature(0.7f).downfall(0.0f)
