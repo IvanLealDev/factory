@@ -32,8 +32,8 @@ public class FactoryDimensionTypes {
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
                 DimensionTypes.THE_END_ID, // effectsLocation
                 0.1f,  // ambientLight
-                new DimensionType.MonsterSettings(false, // no genera monstruos
-                        false, // no tiene un budget de spawneo especial
+                new DimensionType.MonsterSettings(true, // no genera monstruos
+                        true, // no tiene un budget de spawneo especial
                         UniformIntProvider.create(0, 7), // rango de luz para spawnear
                         0) // block light limit
         ));
